@@ -1,0 +1,28 @@
+{
+  "name": "busboy-handler",
+  "version": "0.0.0",
+  "description": "A simple library for working with the Busboy Streaming API to save uploaded files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamjaso/busboy-handler.git"
+  },
+  "keywords": [
+    "Busboy",
+    "Handler",
+    "File",
+    "Upload"
+  ],
+  "author": "Adam Jaso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamjaso/busboy-handler/issues"
+  },
+  "homepage": "https://github.com/adamjaso/busboy-handler#readme",
+  "dependencies": {
+    "async": "^1.5.2"
+  }
+}
