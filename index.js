@@ -17,10 +17,7 @@ module.exports = function (req, busboy, handleFile) {
 
       if ('file' == work.event) {
         work.file
-          .on('error', function(err) {
-            numProcessed ++;
-            callback(err);
-          })
+          .on('error', callback)
           .on('end', callback);
 
         handleFile(work);
