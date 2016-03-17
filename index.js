@@ -29,6 +29,7 @@ module.exports = function (req, busboy, handleFile) {
         fields.push(work);
         callback();
       }
+
     }, 1);
 
     queue.drain = done;
