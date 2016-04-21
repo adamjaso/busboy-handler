@@ -1,7 +1,8 @@
 "use strict";
 
-const async = require('async');
-const Path = require('path');
+var async = require('async');
+var Path = require('path');
+var _ = require('lodash');
 
 module.exports = function (req, busboy, handleFile) {
   return new Promise(function(resolve, reject) {

@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/adamjaso/busboy-handler#readme",
   "dependencies": {
-    "async": "^1.5.2"
+    "async": "^1.5.2",
+    "lodash": "^4.6.1"
   }
 }
